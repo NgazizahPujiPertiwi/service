@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#74DA3D"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="330dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="274dp"
+            android:layout_height="167dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="90dp"
+            app:srcCompat="@drawable/gambar" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:background="#F8328A"
+            android:text="Ngazizah P. Pertiwi"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="#F9A825"
+            android:text="Universitas Teknologi Yogyakarta"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Facebook" />
+
+            <Button
+                android:id="@+id/btn_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Instagram" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="130dp"
+            android:background="#2D85C0"
+            android:text="MP3 Player"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="143dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Play" />
+
+            <Button
+                android:id="@+id/btn_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pause" />
+
+            <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Stop" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginRight="100dp"
+            android:text="Copyright 2019" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
